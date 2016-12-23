@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="github,hexo," />
+  <meta name="keywords" content="github,hexo,coding," />
 
 
 
@@ -89,8 +89,8 @@
 安装node.js下载链接: node.js
 安装hexo123456$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo g$ hexo s
 安装主题主题浏览: themes
-我下载的主题是: Hacker
-1.git clone or">
+我下载的主题是: next
+12$ cd your-hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用github和hexo搭建独立域名博客">
 <meta property="og:url" content="http://tinybai.com/2016/12/22/github-hexo/index.html">
@@ -100,9 +100,9 @@
 安装node.js下载链接: node.js
 安装hexo123456$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo g$ hexo s
 安装主题主题浏览: themes
-我下载的主题是: Hacker
-1.git clone or">
-<meta property="og:updated_time" content="2016-12-23T06:10:21.351Z">
+我下载的主题是: next
+12$ cd your-hexo">
+<meta property="og:updated_time" content="2016-12-23T08:18:43.804Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用github和hexo搭建独立域名博客">
 <meta name="twitter:description" content="1.hexo本地环境搭建官网地址: hexo
@@ -110,8 +110,8 @@
 安装node.js下载链接: node.js
 安装hexo123456$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo g$ hexo s
 安装主题主题浏览: themes
-我下载的主题是: Hacker
-1.git clone or">
+我下载的主题是: next
+12$ cd your-hexo">
 
 
 
@@ -370,17 +370,15 @@
 <h3 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h3><p>下载链接: <a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a></p>
 <h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ hexo init blog</div><div class="line">$ <span class="built_in">cd</span> blog</div><div class="line">$ npm install</div><div class="line">$ hexo g</div><div class="line">$ hexo s</div></pre></td></tr></table></figure>
 <h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><p>主题浏览: <a href="https://hexo.io/themes/" target="_blank" rel="external">themes</a></p>
-<p>我下载的主题是: <a href="https://github.com/CodeDaraW/Hacker" target="_blank" rel="external">Hacker</a></p>
-<p>1.git clone or download zip</p>
-<p>2.Create a folder Hacker in the folder themes, and copy all the theme files to the folder Hacker.</p>
-<p>3.Then apply the theme in hexo global configuration file _config.yml:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: Hacker</div></pre></td></tr></table></figure>
+<p>我下载的主题是: <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">next</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd your-hexo-site</div><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+<p>站点配置文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next</div></pre></td></tr></table></figure></p>
 <h3 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
 <p>测试地址: localhost:4000</p>
 <h2 id="2-上传到github"><a href="#2-上传到github" class="headerlink" title="2.上传到github"></a>2.上传到github</h2><h3 id="git设置"><a href="#git设置" class="headerlink" title="git设置"></a>git设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">"YOUR NAME"</span></div><div class="line">$ git config --global user.email <span class="string">"YOUR EMAIL ADDRESS"</span></div><div class="line">$ ssh-keygen -t rsa -C <span class="string">"your_email@example.com"</span></div><div class="line">$ git remote add &lt;主机名&gt; &lt;网址&gt;</div><div class="line">$ git remote ls</div></pre></td></tr></table></figure>
 <p>注意：需要将id_rsa.pub中的ssh复制到github中</p>
 <h3 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a>上传到github</h3><p>前提: 需要在github中建立一个gitpage项目</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> blog/public</div><div class="line">$ git init</div><div class="line">$ git add .</div><div class="line">$ git commit -am <span class="string">"my blog"</span></div><div class="line">$ git push -u origin master --force</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> blog/public</div><div class="line">$ git init</div><div class="line">$ git add .</div><div class="line">$ git commit -am <span class="string">"my blog"</span></div><div class="line">$ git push -u origin master</div></pre></td></tr></table></figure>
 <p>参考: <a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" target="_blank" rel="external">git远程操作</a></p>
 <p>测试地址: your_name.github.io</p>
 <h2 id="3-域名绑定"><a href="#3-域名绑定" class="headerlink" title="3.域名绑定"></a>3.域名绑定</h2><h3 id="Godaddy"><a href="#Godaddy" class="headerlink" title="Godaddy"></a>Godaddy</h3><p>需要在Godaddy进行域名服务器设置<br><a href="https://support.dnspod.cn/Kb/showarticle/?qtype=%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B&amp;tsid=42" target="_blank" rel="external">godaddy域名修改</a></p>
@@ -389,7 +387,12 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">192.30.252.153</div><div class="line">192.30.252.154</div></pre></td></tr></table></figure>
 <p>在soucere新建CNAME文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tinybai.com  //你的域名</div></pre></td></tr></table></figure>
-<h2 id="4-同时部署到coding"><a href="#4-同时部署到coding" class="headerlink" title="4.同时部署到coding"></a>4.同时部署到coding</h2><h2 id="5-参考"><a href="#5-参考" class="headerlink" title="5. 参考"></a>5. 参考</h2><p><a href="http://lowrank.science/Hexo-Github/" target="_blank" rel="external">知行合一 | 用 Hexo 搭建博客</a><br><a href="http://winterttr.me/2015/10/23/from-dns-to-github-custom-domain/" target="_blank" rel="external">从DNS到github pages自定义域名 – 漫谈域名那些事</a></p>
+<h2 id="4-同时部署到coding"><a href="#4-同时部署到coding" class="headerlink" title="4.同时部署到coding"></a>4.同时部署到coding</h2><p>github国内访问比较慢，因此将国内线路chname到coding</p>
+<h3 id="coding配置"><a href="#coding配置" class="headerlink" title="coding配置"></a>coding配置</h3><p>1.将id_rsa.pub中的ssh复制到coding中的SSH公钥<br>2.在Coding上创建一个项目，项目名最好和你的账户用户名相同<br>3.加入git remote</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git remote add &lt;主机名&gt; &lt;网址&gt;</div><div class="line">$ git push -u 主机名 master</div></pre></td></tr></table></figure>
+<p>4.进入Coding项目管理，在代码菜单中，开启page服务<br>5.在DNSPod中添加 CNAME 记录指向到 pages.coding.me</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">@ CNAME 国内 pages.coding.me.</div><div class="line">@ A     国外 192.30.252.153</div><div class="line">@ A     国外 192.30.252.154</div></pre></td></tr></table></figure>
+<h2 id="5-参考"><a href="#5-参考" class="headerlink" title="5. 参考"></a>5. 参考</h2><p><a href="http://lowrank.science/Hexo-Github/" target="_blank" rel="external">知行合一 | 用 Hexo 搭建博客</a><br><a href="http://winterttr.me/2015/10/23/from-dns-to-github-custom-domain/" target="_blank" rel="external">从DNS到github pages自定义域名 – 漫谈域名那些事</a><br><a href="http://blog.csdn.net/u011303443/article/details/51509351" target="_blank" rel="external">hexo博客同时部署至github和Coding</a></p>
 
       
     </div>
@@ -416,6 +419,8 @@
             <a href="/tags/github/" rel="tag"># github</a>
           
             <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/coding/" rel="tag"># coding</a>
           
         </div>
       
@@ -520,7 +525,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -584,7 +589,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-hexo本地环境搭建"><span class="nav-number">1.</span> <span class="nav-text">1.hexo本地环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装git"><span class="nav-number">1.1.</span> <span class="nav-text">安装git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装node-js"><span class="nav-number">1.2.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.3.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装主题"><span class="nav-number">1.4.</span> <span class="nav-text">安装主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本地测试"><span class="nav-number">1.5.</span> <span class="nav-text">本地测试</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-上传到github"><span class="nav-number">2.</span> <span class="nav-text">2.上传到github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git设置"><span class="nav-number">2.1.</span> <span class="nav-text">git设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#上传到github"><span class="nav-number">2.2.</span> <span class="nav-text">上传到github</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-域名绑定"><span class="nav-number">3.</span> <span class="nav-text">3.域名绑定</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Godaddy"><span class="nav-number">3.1.</span> <span class="nav-text">Godaddy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DNSPod"><span class="nav-number">3.2.</span> <span class="nav-text">DNSPod</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-同时部署到coding"><span class="nav-number">4.</span> <span class="nav-text">4.同时部署到coding</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-参考"><span class="nav-number">5.</span> <span class="nav-text">5. 参考</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-hexo本地环境搭建"><span class="nav-number">1.</span> <span class="nav-text">1.hexo本地环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装git"><span class="nav-number">1.1.</span> <span class="nav-text">安装git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装node-js"><span class="nav-number">1.2.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.3.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装主题"><span class="nav-number">1.4.</span> <span class="nav-text">安装主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本地测试"><span class="nav-number">1.5.</span> <span class="nav-text">本地测试</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-上传到github"><span class="nav-number">2.</span> <span class="nav-text">2.上传到github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git设置"><span class="nav-number">2.1.</span> <span class="nav-text">git设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#上传到github"><span class="nav-number">2.2.</span> <span class="nav-text">上传到github</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-域名绑定"><span class="nav-number">3.</span> <span class="nav-text">3.域名绑定</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Godaddy"><span class="nav-number">3.1.</span> <span class="nav-text">Godaddy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DNSPod"><span class="nav-number">3.2.</span> <span class="nav-text">DNSPod</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-同时部署到coding"><span class="nav-number">4.</span> <span class="nav-text">4.同时部署到coding</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#coding配置"><span class="nav-number">4.1.</span> <span class="nav-text">coding配置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-参考"><span class="nav-number">5.</span> <span class="nav-text">5. 参考</span></a></li></ol></div>
             
 
           </div>
